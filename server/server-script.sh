@@ -21,7 +21,12 @@ then
     while true; do
         sleep 3600 ;
         echo "SNMP Walk " && snmpwalk -v2c -c public $1 > snmpwalkout.txt ;
-    done 
+    done &
+
+    while true; do
+        sleep  10 ;
+        echo "Network status " && snmpnetstat -v2c -c public $1 ;
+    done &
 else
     echo "Please specify IP Address of agent machine"
 fi
