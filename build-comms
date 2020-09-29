@@ -1,0 +1,2 @@
+sudo docker build -t snmp-client ~/Desktop/docker-snmp/server
+
