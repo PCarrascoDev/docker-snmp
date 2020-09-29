@@ -26,7 +26,7 @@ then
     while true; do
         sleep  10 ;
         echo "Network status " && snmpnetstat -v2c -c public $1 ;
-    done &
+    done
 else
     echo "Please specify IP Address of agent machine"
 fi
