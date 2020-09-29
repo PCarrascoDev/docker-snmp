@@ -28,7 +28,7 @@
 ```bash
   $ sudo docker run -it -d --network="host" snmp-client
 ```
-2. Start Server Daemon on local docker network, poiting to localhost
+2. Start Server Daemon on local docker network, pointing to localhost
 ```bash
   $ sudo docker run -it --network="host" snmp-server localhost
 ```
