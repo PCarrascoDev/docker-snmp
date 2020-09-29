@@ -1,5 +1,8 @@
 # docker-snmp
 
+## About 
+SNMP Agent Daemon and automated SNMP query generator Docker images based on Ubuntu.
+
 ## Install: 
 1. Download
 ```bash
