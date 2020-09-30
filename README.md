@@ -3,7 +3,7 @@
 <p align="center"><img height="200" src="https://raw.githubusercontent.com/PCarrascoDev/docker-snmp/master/.res/snmp.png"></p>
 
 ## About 
-SNMP Agent Daemon and automated SNMP query generator Docker images based on Ubuntu.
+SNMP Agent Daemon and automated SNMP requests generator Docker images based on Ubuntu.
 
 ## Overview
 
