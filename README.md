@@ -42,6 +42,7 @@ This repository has the nesessary files to build the docker images for an SNMP S
   $ sudo docker run -it -p 161:161/udp snmp-server AGENT_IP_ADDRESS
 ```
 *Be sure to verify that port 161/udp is open on both devices, and not blocked by any firewall.
+
 *As the client runs on the background, only expect visual output from the server daemon.
 
 ## Local machine usage:
