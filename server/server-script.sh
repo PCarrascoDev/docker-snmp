@@ -65,7 +65,7 @@ then
         #Installed software table
         while true; do
             sleep  90 ;
-            echo "Installed software table: " && snmptable -v 2c -c $1 hrSWInstalledTable ;
+            echo "Installed software table: " && snmptable -v 2c -c public $1 hrSWInstalledTable ;
         done 
 
     else
