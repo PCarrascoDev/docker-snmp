@@ -55,7 +55,6 @@ This repository has the nesessary files to build the docker images for an SNMP S
   $ sudo docker run -it --network="host" snmp-server localhost
 ```
 
+## Video Tutorial 
 
-
-
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/embed/7E0EaBOKdgY)
+https://www.youtube.com/embed/7E0EaBOKdgY
