@@ -56,4 +56,6 @@ This repository has the nesessary files to build the docker images for an SNMP S
 ```
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7E0EaBOKdgY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/embed/7E0EaBOKdgY)
