@@ -32,6 +32,11 @@ This repository has the nesessary files to build the docker images for an SNMP S
 ```bash
   $ sudo docker build -t snmp-server ~/docker-snmp/server
 ```
+### Polymorph Build
+```bash
+  $ sudo docker build -t polymorph ~/docker-snmp/polymorph
+```
+
 ## Usage:
 1. Start Client Daemon (SNMPD)
 ```bash
@@ -54,7 +59,10 @@ This repository has the nesessary files to build the docker images for an SNMP S
 ```bash
   $ sudo docker run -it --network="host" snmp-server localhost
 ```
-
+## Polymorph usage:
+```bash
+  $ sudo docker run -it --privileged polymorph
+```
 ## Video Tutorial 
 
 https://www.youtube.com/embed/7E0EaBOKdgY
