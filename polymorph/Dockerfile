@@ -20,4 +20,7 @@ RUN pip3 install git+https://github.com/kti/python-netfilterqueue
 RUN pip3 install polymorph
 
 RUN apt-get install -y nano iptables
+
+COPY /functions /usr/local/lib/python3.8/dist-packages/polymorph/functions
+#/usr/local/lib/python3.8/dist-packages/polymorph/functions
 CMD [ "polymorph" ]
