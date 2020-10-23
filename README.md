@@ -63,6 +63,10 @@ This repository has the nesessary files to build the docker images for an SNMP S
 ```bash
   $ sudo docker run -it --privileged polymorph
 ```
-## Video Tutorial 
+## Video Tutorial (Spanish)
 
 https://www.youtube.com/embed/7E0EaBOKdgY
+
+## Polymorph analysis (Spanish)
+
+https://youtu.be/WcMRsLw3iIA
