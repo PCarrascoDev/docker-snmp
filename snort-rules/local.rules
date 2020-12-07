@@ -1,0 +1,22 @@
+# $Id: local.rules,v 1.11 2004/07/23 20:15:44 bmc Exp $
+# ----------------
+# LOCAL RULES
+# ----------------
+# This file intentionally does not come with signatures.  Put your local
+# additions here.
+
+#Detectar MIB específica utilizando content y byte offset
+alert udp any 161 -> any any (msg:"Detect SNMPv2-MIB::snmpInPkts.0 at offset 20"; content:"|2b 06 01 02 01 0b 01 00|"; offset:20; sid:1;)
+
+#Detectar tráfico del cliente al servidor con flow
+alert udp any 161 -> any any (msg:"Flow alert SNMP request"; flow:to_server; sid:2;)
+
+#Alertar de los paquetes que contengan el community public
+alert udp any 161 -> any any (msg:"PCRE alert SNMP community public"; pcre:"/public/"; sid:3;)
+
+#Mostrar paquetes que tengan payload > 1
+alert udp any 161 -> any any (msg:"DSIZE > 1 bytes payload"; dsize:>1; sid:4;)
+
+
+
+
